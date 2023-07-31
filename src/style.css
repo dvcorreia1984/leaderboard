@@ -1,6 +1,22 @@
+
 body {
+  margin: 20px 60px;
+  font-family: 'Comic Neue', cursive;
+  border: 5px solid black;
+}
+
+h1 {
   display: flex;
-  justify-content: center;
-  color: white;
-  background-color: black;
+  font-size: xxx-large;
+  padding-left: 20px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+div#wrapper {
+  display: flex;
+  justify-content: space-around;
 }

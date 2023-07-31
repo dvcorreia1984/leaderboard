@@ -1,1 +1,3 @@
-document.getElementById('wrapper').innerHTML = 'Hello World!';
+import './style.css';
+
+document.getElementById('scores').innerHTML = 'Place scores here!';
