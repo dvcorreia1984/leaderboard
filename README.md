@@ -6,7 +6,7 @@
 
   <br/>
 
-  <h3><b>To-do List</b></h3>
+  <h3><b>Leaderboard</b></h3>
 
 </div>
 
