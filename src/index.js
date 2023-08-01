@@ -15,3 +15,9 @@ submitBtn.addEventListener('click', () => {
 postScore(userInput.value, scoreInput.value);
 
 displayScores();
+
+// add event listener to refresh button
+const refreshBtn = document.getElementById('refresh');
+refreshBtn.addEventListener('click', () => {
+  window.location.reload();
+});
