@@ -13,11 +13,9 @@
 # 📗 Table of Contents
 
 - [📖 About the Project](#about-project)
-
   - [🛠 Built With](#built-with)
-    - [Key Features](#key-features)
+  - [Key Features](#key-features)
   - [🛠 Tech Stack](#tech-stack)
-
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
@@ -29,7 +27,7 @@
 - [❓ FAQ](#faq)
 - [📝 License](#license)
 
-## 📖 To-do List is an app that helps you to see what tasks you have to complete. A checkbox is used to update tasks. 
+## 📖 Leaderboard is a app that updates the leaderboard using a API. 
 
 ## 🛠 Built With <a name="built-with">HTML, CSS and JavaScript</a>
 
@@ -43,11 +41,9 @@
 
 ### Key Features <a name="key-features">
 
--A user interface where new tasks can be created. 
--Tasks can also be removed and edited. 
-- Data is stored in local storage
-- Checkboxes are used to mark tasks that are completed. 
-- Unit testing was added. 
+Some of the key features: 
+- Set up app using webpack.
+- Update the leaderboard using an API.
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -60,13 +56,14 @@ To get a local copy up and running, follow these steps:
 
 - Open your Terminal in your VSCode.
 - Navigate to the desired directory [folder] to which you want to clone the repository to
-- [Copy & Paste] the Git clone you find in the code button https://github.com/GeekyHacks/AwesomeBook.git
+- [Copy & Paste] the Git clone you find in the code button https://github.com/dvcorreia1984/leaderboard.git into your terminal and press [Enter]
+- run using "npm start" in your terminal
 
 ### Prerequisites
 
 In order to run this project you need:
 
-- General Understanding of HTML & CSS
+- General Understanding of HTML, CSS and JavaScript
 - basic Knowledge of Git Commands
 - basic Knowledge of the Terminal Commands
 
@@ -74,13 +71,13 @@ In order to run this project you need:
 
 Clone this repository to your desired folder:
 
-- git clone https://github.com/dvcorreia1984/my-to-do-list.git
+- git clone https://github.com/dvcorreia1984/leaderboard.git
 
 Example commands:
 
 ```sh
   cd my-folder
-  git clone https://github.com/dvcorreia1984/my-to-do-list.git
+  git https://github.com/dvcorreia1984/leaderboard.git
 
 ```
 
@@ -108,7 +105,7 @@ Must-Install-Project-with-the-Following-Programmes:
 ## 🔭 Future Features <a name="future-features"></a>
 
 - Adding more styling to CSS
-- Improving remove functionality. 
+- Adding more functionality to the app 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -116,7 +113,7 @@ Must-Install-Project-with-the-Following-Programmes:
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/GeekyHacks/AwesomeBook/issues).
+Feel free to check the [issues page](https://github.com/dvcorreia1984/leaderboard.git).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
