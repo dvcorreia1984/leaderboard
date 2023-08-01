@@ -1,0 +1,94 @@
+
+body {
+  margin: 20px 60px;
+  font-family: 'Comic Neue', cursive;
+  border: 5px solid black;
+  min-width: 600px;
+  max-width: 768px;
+}
+
+h1 {
+  display: flex;
+  font-size: xxx-large;
+  padding-left: 20px;
+}
+
+h2 {
+  height: 20px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+input {
+  font-family: 'Comic Neue', cursive;
+  font-weight: 600;
+  font-size: small;
+  border: 3px solid black;
+  padding: 5px;
+  margin: 5px;
+}
+
+input::placeholder {
+  font-weight: 600;
+  color: #000;
+  font-family: 'Comic Neue', cursive;
+  font-size: large;
+  padding-left: 5px;
+}
+
+button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 15px;
+  padding: 5px;
+  font-size: large;
+  font-weight: bold;
+  border: 2px solid black;
+  background-color: #f0f0f0;
+  box-shadow: 5px 5px 5px black;
+}
+
+ul {
+  padding-left: 0;
+  display: flex;
+  flex-direction: column;
+  border: 3px solid black;
+}
+
+li {
+  font-weight: 600;
+  padding-left: 5px;
+  display: flex;
+  width: 250px;
+  list-style-type: none;
+}
+
+div#wrapper {
+  display: flex;
+  justify-content: space-around;
+  height: 400px;
+}
+
+div#left {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 40px;
+}
+
+div#lefthead {
+  display: flex;
+}
+
+div#right {
+  display: flex;
+  flex-direction: column;
+}
+
+.grey {
+  background-color: #f0f0f0;
+}

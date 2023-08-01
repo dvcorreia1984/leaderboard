@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="../src/style.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+</head>
+  </head>
+  <body>
+    <section>
+  
+      <h1>Leaderboard</h1>
+
+      <div id="wrapper">
+        <div id="left">
+          <div id=lefthead>
+          <h2>Recent Scores</h2>
+          <button type="button">Refresh</button>
+          </div>
+          <div id="scoreboard">
+            <ul class="list-scores">
+              <li class="white">Name: 100</li>
+              <li class="grey">Name: 20</li>
+              <li class="white">Name: 50</li>
+              <li class="grey">Name: 78</li>
+              <li class="white">Name: 125</li>
+              <li class="grey">Name: 77</li>
+              <li class="white">Name: 42</li>
+            </ul>
+          </div>
+    
+        </div>
+      
+        <div id="right">
+          <h2>Add your score</h2>
+            <form>
+              <input type="text" id="username" name="username" placeholder="Your name" required/>
+              <input type="number" id="score" name="score" placeholder="Your score"/>
+              <button type="button">Sumbit</button>
+            </form>
+        </div>
+      </div>
+    </section>
+    
+    <script type="module" src="../src/index.js"></script>
+  </body>
+</html>
