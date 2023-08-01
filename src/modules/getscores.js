@@ -1,13 +1,11 @@
 import { apiUrl, newGameId } from './creategame.js';
 
-// get scores from API
 const getScores = async () => {
   const response = await fetch(`${apiUrl}${newGameId}/scores/`);
   const data = await response.json();
   return data;
 };
 
-// display scores
 const displayScores = async () => {
   let color = 'white';
   const scores = await getScores();
