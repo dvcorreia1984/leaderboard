@@ -4,7 +4,7 @@
   "description": "This  repo can be used for projects that use webpack bundling.",
   "main:": "index.js",
   "scripts": {
-    "start": "webpack --mode development --watch",
+    "start": "webpack serve --open",
     "build": "webpack --mode production",
     "dev": "webpack serve --mode development --open --hot",
     "test": "jest",
