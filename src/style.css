@@ -1,20 +1,27 @@
-
 body {
   margin: 20px 60px;
-  font-family: 'Comic Neue', cursive;
-  border: 5px solid black;
+  font-family: 'Open Sans', sans-serif;
+  border-radius: 10px;
   min-width: 600px;
-  max-width: 768px;
+  max-width: 1200px;
+  background-color: #59BEDA;
+  background-image: url(./assets/mario.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
 }
 
 h1 {
   display: flex;
   font-size: xxx-large;
   padding-left: 20px;
+  justify-content: center;
+  color: #e73448;
 }
 
 h2 {
   height: 20px;
+  color: white;
 }
 
 form {
@@ -78,6 +85,7 @@ div#left {
   flex-direction: column;
   align-items: center;
   height: 40px;
+  color: white;
 }
 
 div#lefthead {
