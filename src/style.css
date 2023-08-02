@@ -92,3 +92,9 @@ div#right {
 .grey {
   background-color: #f0f0f0;
 }
+
+div#scoreboard {
+  min-width: 300px;
+  min-height: 300px;
+  border: 3px solid black;
+}
