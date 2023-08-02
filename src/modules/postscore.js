@@ -1,5 +1,4 @@
 import { apiUrl, newGameId } from './creategame.js';
-import displayScores from './getscores.js';
 
 const postScore = async (user, score) => {
   const response = await fetch(`${apiUrl}${newGameId}/scores/`, {

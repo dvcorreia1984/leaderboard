@@ -10,6 +10,7 @@ const displayScores = async () => {
   let color = 'white';
   const scores = await getScores();
   const scoreList = document.getElementById('scoreboard');
+  scoreList.innerHTML = '';
   scores.result.forEach((score) => {
     const li = document.createElement('li');
     li.classList.add(color);

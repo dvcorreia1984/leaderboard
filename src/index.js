@@ -11,6 +11,8 @@ submitBtn.addEventListener('click', () => {
   userInput.value = userInput.value.trim();
   scoreInput.value = scoreInput.value.trim();
   postScore(userInput.value, scoreInput.value);
+  userInput.value = '';
+  scoreInput.value = '';
 });
 
 const refreshBtn = document.getElementById('refresh');
