@@ -7,17 +7,13 @@ const userInput = document.getElementById('username');
 const scoreInput = document.getElementById('score');
 const submitBtn = document.getElementById('submit');
 
-// add event listener to submit button
 submitBtn.addEventListener('click', () => {
+  userInput.value = userInput.value.trim();
+  scoreInput.value = scoreInput.value.trim();
   postScore(userInput.value, scoreInput.value);
 });
 
-postScore(userInput.value, scoreInput.value);
-
-displayScores();
-
-// add event listener to refresh button
 const refreshBtn = document.getElementById('refresh');
 refreshBtn.addEventListener('click', () => {
-  window.location.reload();
+  displayScores();
 });
