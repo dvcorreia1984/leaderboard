@@ -1,20 +1,27 @@
-
 body {
   margin: 20px 60px;
-  font-family: 'Comic Neue', cursive;
-  border: 5px solid black;
+  font-family: 'Open Sans', sans-serif;
+  border-radius: 10px;
   min-width: 600px;
-  max-width: 768px;
+  max-width: 1200px;
+  background-color: #59beda;
+  background-image: url(./assets/mario.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
 }
 
 h1 {
   display: flex;
   font-size: xxx-large;
   padding-left: 20px;
+  justify-content: center;
+  color: #e73448;
 }
 
 h2 {
   height: 20px;
+  color: white;
 }
 
 form {
@@ -23,20 +30,24 @@ form {
 }
 
 input {
-  font-family: 'Comic Neue', cursive;
   font-weight: 600;
-  font-size: small;
+  font-size: large;
   border: 3px solid black;
   padding: 5px;
   margin: 5px;
+  border-radius: 10px;
+}
+
+input:hover {
+  background-color: bisque;
 }
 
 input::placeholder {
   font-weight: 600;
-  color: #000;
-  font-family: 'Comic Neue', cursive;
+  color: grey;
   font-size: large;
   padding-left: 5px;
+  font-style: italic;
 }
 
 button {
@@ -47,9 +58,20 @@ button {
   padding: 5px;
   font-size: large;
   font-weight: bold;
-  border: 2px solid black;
-  background-color: #f0f0f0;
+  border: 2px solid #e73448;
+  background-color: white;
   box-shadow: 5px 5px 5px black;
+  border-radius: 10px;
+  color: #e73448;
+}
+
+button:active {
+  background-color: #e73448;
+  color: white;
+}
+
+button:hover {
+  font-size: larger;
 }
 
 ul {
@@ -60,11 +82,13 @@ ul {
 }
 
 li {
+  display: flex;
   font-weight: 600;
   padding-left: 5px;
-  display: flex;
-  width: 250px;
+  width: 300px;
   list-style-type: none;
+  height: 30px;
+  justify-content: flex-start;
 }
 
 div#wrapper {
@@ -78,6 +102,7 @@ div#left {
   flex-direction: column;
   align-items: center;
   height: 40px;
+  color: white;
 }
 
 div#lefthead {
@@ -90,11 +115,22 @@ div#right {
 }
 
 .grey {
-  background-color: #f0f0f0;
+  display: flex;
+  align-items: center;
+  background-color: #e73448;
+  opacity: 0.8;
+}
+
+li.white {
+  display: flex;
+  background-color: #1f1f21;
+  opacity: 0.8;
+  align-items: center;
 }
 
 div#scoreboard {
-  min-width: 300px;
-  min-height: 300px;
-  border: 3px solid black;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
 }

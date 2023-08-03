@@ -6,7 +6,7 @@
 
   <br/>
 
-  <h3><b>Leaderboard</b></h3>
+  <img src="./src/assets/Leaderboard app.png">
 
 </div>
 
