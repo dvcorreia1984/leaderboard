@@ -40,7 +40,6 @@ input {
 
 input:hover {
   background-color: bisque;
-
 }
 
 input::placeholder {
